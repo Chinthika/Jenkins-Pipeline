@@ -54,7 +54,7 @@ pipeline {
             steps {
                 echo 'Stage 7: Deploy to Production'
                 echo 'Task: Deploy the application to a production server (e.g., AWS EC2 instance).'
-                
+                echo 'Tool: AWS CLI'
             }
         }
     }
